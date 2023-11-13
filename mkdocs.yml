@@ -1,0 +1,52 @@
+site_name: vmutter's blog
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Dark mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - search.share
+
+
+plugins:
+  - search
+  - blog: 
+      archive: false
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
+extra:
+  consent:
+    title: Cookie consent
+    actions:
+       - accept
+       - reject
+       - manage
+    description: >- 
+      Nós utilizamos cookies para reconhecer suas visitas e preferências, 
+      bem como para medir a eficácia de nossa documentação e se os 
+      usuários encontram o que estão procurando. 
+      Com seu consentimento, você está nos ajudando a 
+      aprimorar nossa documentação.
+
+copyright: >
+  Copyright &copy; 2023 Vinicius Mutter Erbetta –
+  <a href="#__consent">Alterar cookies</a>
