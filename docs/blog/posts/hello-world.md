@@ -10,6 +10,7 @@ categories:
 tags:
   - Foo
   - Bar
+comments: true
 ---
 
 # oi
