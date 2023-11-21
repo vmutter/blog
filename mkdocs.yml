@@ -30,6 +30,7 @@ theme:
 plugins:
   - search
   - blog: 
+      blog_dir: .
       archive: false
 
 markdown_extensions:

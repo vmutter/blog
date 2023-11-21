@@ -28,13 +28,13 @@ comments: true
   - Python
   - Java (iremos utilizar Java 11 com Maven para os exemplos)
 
+<!-- more -->
+
 ## Criando uma aplicação sem servidor com AWS  SAM
 
 ``` bash
 sam init
 ```
-
-<!-- more -->
 
 ## Rodando localmente
 ## Fazendo o deploy manul
