@@ -1,15 +1,17 @@
 ---
 date: 2023-11-21
-slug: test
+slug: iniciando-app-serveless-aws-sam
 readtime: 30
 authors:
   - vmutter
 categories:
-  - Hello
-  - World
+  - AWS
+  - AWS SAM
+  - Serveless
 tags:
-  - Foo
-  - Bar
+  - AWS
+  - AWS SAM
+  - Serveless
 comments: true
 ---
 
