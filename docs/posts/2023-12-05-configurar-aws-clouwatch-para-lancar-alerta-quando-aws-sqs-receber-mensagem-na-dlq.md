@@ -6,8 +6,6 @@ authors:
   - vmutter
 categories:
   - AWS
-  - AWS CloudWatch
-  - AWS SQS
 tags:
   - AWS
   - AWS CloudWatch

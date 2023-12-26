@@ -6,7 +6,6 @@ authors:
   - vmutter
 categories:
   - AWS
-  - AWS SAM
   - Serveless
 tags:
   - AWS

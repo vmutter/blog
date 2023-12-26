@@ -60,6 +60,9 @@ extra:
       link: https://github.com/vmutter
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/viniciusmutter/
+  analytics:
+    provider: google
+    property: G-N5KTQQ5DJ1
 
 copyright: >
   Copyright &copy; 2023 Vinicius Mutter Erbetta –
