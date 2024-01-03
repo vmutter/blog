@@ -51,6 +51,8 @@ networks:
     driver: bridge
 ```
 
+<!-- more -->
+
 Nas configurações de `volume`, mapeado a pasta `./localstack_bootstrap` para a `/etc/localstack/init/ready.d/`, com isso, todos os scripts que estiverem nessa pasta, serão executados após a inicialização do Localstack.
 
 Agora, vamos criar a pasta, `localstack_bootstrap` e adicionar o script `sqs_bootstrap.sh` abaixo:

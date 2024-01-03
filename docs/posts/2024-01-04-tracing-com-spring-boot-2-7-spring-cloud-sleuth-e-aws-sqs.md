@@ -1,5 +1,5 @@
 ---
-date: 2024-01-03
+date: 2024-01-04
 slug: tracing-com-spring-boot-2-7-spring-cloud-sleuth-e-aws-sqs
 readtime: 20
 authors:
@@ -54,6 +54,8 @@ networks:
   localstack:
     driver: bridge
 ```
+
+<!-- more -->
 
 Nas configurações de `volume`, mapeado a pasta `./localstack_bootstrap` para a `/etc/localstack/init/ready.d/`, com isso, todos os scripts que estiverem nessa pasta, serão executados após a inicialização do Localstack.
 
